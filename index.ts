@@ -32,9 +32,7 @@ function createIndexHtmlFile(): void {
   
     fs.writeFile(filePath, content, (err) => {
       if (err) {
-        console.error('Error writing the file:', err);
       } else {
-        console.log(`index.html has been created successfully at ${filePath}`);
       }
     });
   }
